@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>Kumiko</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../css/final_ipad.css">
+
+
+</head>
+
+<script src="../js/final.js"></script>
+
+<body onload="init()">
+    <div class="center">
+        <div class="main" id="leftside">
+            <div class="left" id="l_bar">
+                <img src="../pics/bar.png" alt="" id="pic_bar">
+            </div>
+            <div class="left" id="l_pic">
+                <img src="../pics/paste_disable.png" alt="" class="pic">
+                <img src="../pics/pe.png" alt="" class="pic">
+                <img src="../pics/brain.png" alt="" class="pic">
+                <img src="../pics/constructing_disabled.png" alt="" class="pic">
+            </div>
+        </div>
+        <div class="main" id="rightside">
+            <div class="l ffff">
+                <div class="gggg">
+                    <img src="../pics/tooth.png" alt="" width=40 height=40 class="icon">
+                    <p class="icon" id="tttt">即時模擬</p>
+                </div>
+                <hr class="line">
+                <div class="pics spe">
+                    <ul id="list">
+
+                    </ul>
+                </div>
+                <div class="bpic spe" id="bpic">
+
+                </div>
+                <br>
+                <div class="func">
+                    <input type="button" onclick="previousimage()" class="function" style="background-image: url('../pics/previous-512.png'); background-size: 50px 50px" id="previous">
+                    <input type="button" onclick="stop()" class="function" style="background-image: url('../pics/pause.png'); background-size: 50px 50px" id="pause">
+                    <input type="button" onclick="nextimage()" class="function" style="background-image: url('../pics/next-512.png'); background-size: 50px 50px" id="next">
+
+                </div>
+            </div>
+            <div class="r ffff">
+                <div class="rtop">
+                    <img src="../pics/tooth.png" alt="" width=40 height=40 class="icon">
+                    <p class="icon" id="tttt">骨癒合評估</p>
+                </div>
+                <hr class="line">
+
+                <div id="log">
+                </div>
+                <div id="tab">
+
+                </div>
+                
+                <div id="save">
+                    <button class="download" onclick="saveSTL()">下載STL檔案</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

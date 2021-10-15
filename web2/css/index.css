@@ -1,0 +1,141 @@
+.top {
+    margin: 20px 0 0 20px;
+
+}
+
+.style {
+    border: 0;
+    height: 1px;
+    width: 150px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    margin: -2px 0 0 5px;
+}
+
+
+.mum {
+    display: inline-block;
+}
+
+.head {
+    width: 500px;
+    height: 500px;
+}
+
+.in {
+    display: inline-block;
+}
+
+.aaaa {
+    display: inline-block;
+}
+
+p.aaaa {
+    font-size: 20px;
+    vertical-align: top;
+    margin: 12px 0 0 0;
+}
+
+.data {
+    vertical-align: top;
+    margin: 0 0 0 20px;
+}
+
+.tpic {
+    vertical-align: top;
+    margin: 0 0 0 50px;
+    text-align: left;
+}
+
+.bot-ind {
+}
+
+#not {
+    width: 400px;
+    height: 10px;
+}
+
+.pics {
+    margin: 0 0 0 50px;
+    width: 20%;
+    
+    border: solid;
+    border-color: gray;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/*
+#head{
+    position: absolute;
+    z-index: -1;
+}
+*/
+.detail {
+    text-align: left;
+    line-height: 25px;
+}
+
+.table{
+    margin: 0 0 0 0;
+}
+
+td{
+    width: 40px;
+}
+
+.col{
+    background-color: #8396B3;
+    color: black;
+}
+
+.inl{
+    display: inline-block;
+}
+
+#fuck{
+    margin: 50px 0 0 0;
+}
+
+.highlight{
+    color: red;
+    font-weight: bold;
+}
+
+.but input[type="button"]{
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+    padding: 10px 10px;
+    background-color: #607D8B;
+    border: 1px solid #ddd;
+    color: white;
+}
+
+.but input[type="button"]:hover{
+    left: .1em;
+    background-color: #BBD8DC;
+    cursor: pointer;
+}
+
+#tab{
+    margin: 20px 0 0 0;
+}
+
+#sub {
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+    padding: 10px 10px;
+    background-color: #607D8B;
+    border: 1px solid #ddd;
+    color: white;
+}
+
+#sub:hover{
+    left: .1em;
+    background-color: #BBD8DC;
+    cursor: pointer;
+}
+
+#form{
+    font-size: 20px;
+}

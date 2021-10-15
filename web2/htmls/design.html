@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>Kumiko</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../css/design_ipad.css">
+
+</head>
+<script src="../js/newtypecanvas.js"></script>
+
+<body onload="init()">
+    <div class="center">
+        <div class="main" id="leftside">
+            <div class="left" id="l_bar">
+                <img src="../pics/bar.png" alt="" id="pic_bar">
+            </div>
+            <div class="left" id="l_pic">
+                <img src="../pics/paste_disable.png" alt="" class="pic">
+                <img src="../pics/pen.png" alt="" class="pic">
+                <img src="../pics/brain-no.png" alt="" class="pic">
+                <img src="../pics/constructing_disabled.png" alt="" class="pic">
+            </div>
+        </div>
+        <div class="main" id="rightside">
+            <div class="func" id="right_left">
+                <img src="../pics/tooth.png" alt="" class="icon" width=40 height=40>
+                <p class="icon">骨釘設計</p>
+                <hr class="line">
+
+            </div>
+
+            <div class="func" id="right_mid">
+                <div class="topline">
+                    <canvas class="firstline can" id="tutorial0" width="42" height="32"></canvas>
+
+                </div>
+                <div>
+                    <canvas class="firstline can" id="tutorial1" width="42" height="32"></canvas>
+
+                </div>
+                <div>
+                    <canvas class="firstline can" id="tutorial2" width="42" height="32"></canvas>
+                </div>
+                <div>
+                    <canvas class="firstline can" id="tutorial3" width="42" height="32"></canvas>
+                </div>
+                <div>
+                    <canvas class="firstline can" id="tutorial4" width="42" height="32"></canvas>
+                </div>
+                <div>
+                    <canvas class="firstline can" id="tutorial5" width="42" height="32"></canvas>
+                </div>
+                <div>
+                    <canvas class="firstline can" id="tutorial6" width="42" height="32"></canvas>
+                </div>
+                <button onclick='cpy()' id="cpy" class="but">Enter</button>
+            </div>
+            <div class="func" id="right_right">
+                <ul>
+                    <li>
+                        <div class="element">
+                            <div class="inline">
+                                <img src="../pics/pen.svg" alt="" width="50" height="50">
+                            </div>
+
+                            <div class="inline">
+                                <button class="litext" onclick="set('black', 2, true)">Draw</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="element">
+                            <div class="inline">
+                                <img src="../pics/eraser.svg" alt="" width="50" height="50">
+
+                            </div>
+                            <div class="inline">
+                                <button class="litext" onclick="set('white', 10, false)">Erase</button>
+
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="element">
+                            <div class="inline">
+                                <img src="../pics/reset.svg" alt="" width="50" height="50">
+
+                            </div>
+                            <div class="inline">
+                                <button class="litext" onclick="reset()">Reset</button>
+
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="func" id="right_corner">
+                <div class="entire ex">
+                    <canvas id='entire' width='104' height="420"></canvas>
+                </div>
+
+                <div>
+                    <ul>
+                        <li>
+                            <button class="but" onclick="location.href=`../index.html`">BACK</button>
+
+                        </li>
+                        <li>
+                            <button class="but" onclick="redir()">NEXT</button>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="func exam">
+                <div class="ex">
+                    <ul class="example">
+                        <li>
+                            <button class="choice" onclick="loadimage(0)">UserDraw</button>
+                        </li>
+                        <li>
+                            <button class="choice" onclick="loadimage(1)">Example1</button>
+                        </li>
+                        <li>
+                            <button class="choice" onclick="loadimage(2)">Example2</button>
+                        </li>
+                        <li>
+                            <button class="choice" onclick="loadimage(3)">Example3</button>
+                        </li>
+                    </ul>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="overlay">
+        <div id='innercontent'>
+            <span id=spinner></span>
+        </div>
+    </div>
+</body>
+
+</html>

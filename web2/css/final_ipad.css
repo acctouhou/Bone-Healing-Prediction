@@ -1,0 +1,127 @@
+#icon_text {
+    margin: 25px 0 0 0;
+    font-size: 40px;
+}
+div .icon {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 30px;
+}
+.func {
+    display: inline-block;
+}
+ul {
+    list-style: none;
+    list-style-type: none;
+}
+.pics::-webkit-scrollbar {
+    display: none;
+}
+img.icon {
+    margin: 0;
+    vertical-align: middle;
+}
+p.icon {
+    vertical-align: middle;
+    font-size: 25px;
+    margin: 0;
+}
+.gggg {
+    float: left;
+}
+.line {
+    border-top: 1px solid black;
+    width: 80%;
+    float: left;
+}
+.l {
+    margin: 20px 0 0 20px;
+    float: left;
+    width: 35%;
+    height: 100%
+}
+.r {
+    width: 60%;
+}
+.rtop {
+    margin: 20px 0 0 0;
+    float: left;
+}
+.rbot {
+    margin: 20px 0 0 0;
+    float: left;
+}
+.pics {
+    overflow: scroll;
+    direction: rtl;
+    overflow-x: hidden;
+    height: 85%;
+    width: 125px;
+    float: left;
+}
+.pics::-webkit-scrollbar {
+    display: none;
+}
+.zzzz {
+    width: 45px;
+    height: 180px;
+    float: left;
+}
+.spe {
+    display: inline-block;
+}
+.bigpic {
+    width: 100px;
+    height: 400px;
+}
+.ffff {
+    display: inline-block;
+}
+div .rpic {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+input[type=button] {
+    border: none;
+}
+.function {
+    width: 50px;
+    height: 50px;
+}
+.func {
+    margin: 20px 0 0 0;
+}
+
+.title{
+    width: 200px;
+    background-color: bisque;
+}
+
+.digit{
+    width: 100px;
+    color: brown;
+}
+
+td{
+    font-size: 20px;
+}
+
+#tab{
+    margin: 30px;
+}
+
+.download {
+    margin: 0px 0 10px 0;
+    cursor: pointer;
+    padding: 10px 10px;
+    background-color: #607D8B;
+    border: 1px solid #ddd;
+    color: white;
+}
+
+.download:hover{
+    left: .1em;
+    background-color: #BBD8DC;
+    cursor: pointer;
+}
